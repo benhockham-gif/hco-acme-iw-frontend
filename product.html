@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-iw-text="site.name">ACME Supplies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body class="page-product">
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" data-iw-href="home"><span data-iw-text="site.name">ACME Supplies</span></a>
+    <a class="basket-link" data-iw-href="basket"><span data-iw-text="basket.link">Basket</span></a>
+  </div>
+</header>
+<div class="wrap layout">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul class="nav-list" data-iw-nav>
+        <li class="nav-item" data-iw-nav-item data-iw-depth="0"><a data-iw-category-link><span data-iw-category-name>Tools</span></a></li>
+        <li class="nav-item" data-iw-nav-item data-iw-depth="1"><a data-iw-category-link><span data-iw-category-name>Hammers</span></a></li>
+        <li class="nav-item" data-iw-nav-item data-iw-depth="0"><a data-iw-category-link><span data-iw-category-name>Anvils</span></a></li>
+        <li class="nav-item" data-iw-nav-item data-iw-depth="0"><a data-iw-category-link><span data-iw-category-name>Footwear</span></a></li>
+      </ul>
+    </nav>
+  </aside>
+  <main class="main">
+    <article class="product">
+      <img class="media media-square product-image" data-iw-product-image alt="">
+      <div class="product-details">
+        <ul class="tags" data-iw-product-categories>
+          <li class="tag" data-iw-product-category><a data-iw-category-link><span data-iw-category-name>Tools</span></a></li>
+          <li class="tag" data-iw-product-category><a data-iw-category-link><span data-iw-category-name>Hammers</span></a></li>
+        </ul>
+        <h1><a data-iw-product-link><span data-iw-product-name>Claw hammer, 16 oz</span></a></h1>
+        <p class="price price-large" data-iw-product-price>£24.99</p>
+        <form class="add-form" data-iw-add-to-basket>
+          <label class="field">
+            <span data-iw-text="basket.quantity">Quantity</span>
+            <input class="qty" name="quantity" type="number" min="1" value="1">
+          </label>
+          <button class="btn" type="submit" data-iw-text="basket.add">Add to basket</button>
+        </form>
+      </div>
+    </article>
+  </main>
+</div>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-text" data-iw-text="footer.text">ACME Supplies Ltd. Tools, anvils and footwear, delivered across the UK.</p>
+    <div class="contact">
+      <p data-iw-text="contact.text">Questions about an order? Get in touch.</p>
+      <p data-iw-text="contact.email">hello@acme-supplies.example</p>
+      <p data-iw-text="contact.phone">01632 960000</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
